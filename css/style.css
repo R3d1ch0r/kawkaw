@@ -1,0 +1,114 @@
+body {
+    background: #041821;
+    color: #F8F8F8;
+}
+
+header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-bottom: 1px solid rgb(81, 81, 125);
+}
+
+#photographe {
+     text-transform: uppercase;
+}
+
+#photographe span {
+    color: #00CBA0;
+}
+
+header nav span{
+    margin: 10px;
+}
+
+/* Les polices */
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@media all and (max-width: 767px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+#vert {
+    color: #00CBA0;
+}
+
+#gros_titre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px
+}
+
+.titre_indivi {
+    margin: 1px
+}
+
+#tout_le_bas_du_site {
+    margin: 50px
+}
+
+#bouttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#paragraphe {
+    margin-bottom: 35px;
+}
+
+button {
+    margin: 5px;
+    background-color: #041821;
+    color: #F8F8F8;
+    border: hidden;
+}
+
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  padding: 0 4px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  size: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
